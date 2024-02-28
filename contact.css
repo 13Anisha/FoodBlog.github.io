@@ -1,0 +1,80 @@
+.mainflex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+h1{
+    color: #2705a2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div label{
+    margin-top: 10px;
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(25, 147, 62);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+#form button:hover{
+    opacity: 0.6;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 8px;
+	display: block;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+#Message{
+    height: 100px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 12px;
+    height: 13px;
+}
+
+form{
+    display: block;
+}
+
