@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("images/dark\ background.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.mainflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(5px); 
+    height: 100vh;
+}
+
+.signupTag {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    text-wrap: wrap;
+    text-align: justify;
+    color: white; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    color: #C0EEF2;
+    text-align: center;
+    margin-bottom: 10px;
+     
+}
+
+div label {
+    margin-top: 10px;
+    color: white; 
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    opacity: 0.6;
+}
+
+.logo {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #F8F4EC;
+    margin: 10px;
+}
+
+.logo img {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input-control{
+    margin-bottom: 5px;
+}
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 8px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5); /* Set input background color with transparency */
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 13px;
+    font-weight: 900;
+}
+
+form {
+    display: block;
+}
+
+@media(max-width:380px)
+{
+    .input-control input{
+        width:300px;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .signupTag{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+
+    }
+}
+
+
+@media(min-width:200px) and (max-width:340px)
+{
+    .input-control input{
+        width:auto;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    .signupTag{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 23px;
+
+    }
+    #form button{
+        width: 200px;
+    }
+}
